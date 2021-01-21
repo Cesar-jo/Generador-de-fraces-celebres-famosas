@@ -1,0 +1,69 @@
+                                                * {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    box-sizing: border-box;
+                                                }
+                                                
+                                                body {
+                                                    font-family: 'open sans';
+                                                    background: #dad7d0;
+                                                }
+                                                
+                                                h2 {
+                                                    text-align: center;
+                                                    padding: 30px;
+                                                    background: #16123a;
+                                                    color: #fff;
+                                                    font-size: 2em;
+                                                }
+                                                /*con esto haremos que centre esos datos en medio de la pagina con un espacio de arriba y abajo como tambien de los lados*/
+                                                
+                                                .container {
+                                                    padding: 20px;
+                                                    background: #16123a;
+                                                    border-radius: 5px;
+                                                    width: 350px;
+                                                    height: 350px;
+                                                    box-shadow: 0px 10px 20px opx rgba(0, 0, 0, 0.25);
+                                                    color: #fff;
+                                                    position: absolute;
+                                                    /*esto de abajo hara que esos datos se pocisiones en medio de la pagina con un espacio de arriva y abajo como en los lados del 50%*/
+                                                    transform: translate(-50%, -50%);
+                                                    top: 50%;
+                                                    left: 50%;
+                                                    font-size: 1.5em;
+                                                }
+                                                
+                                                .words {
+                                                    background: #ffffff;
+                                                    color: #000;
+                                                    /*lo que hacen los pading es establece el espacio de relleno requerido por todos los lados de un elemento. en este caso son un espacio de 10px en todos los lados*/
+                                                    padding: 10px;
+                                                    border-radius: 5px;
+                                                    height: 200px;
+                                                    text-align: justify;
+                                                }
+                                                
+                                                .autor {
+                                                    margin-top: 20px;
+                                                    font-weight: bold;
+                                                }
+                                                
+                                                #generate-btn {
+                                                    color: #fff;
+                                                    background: #6c61cf;
+                                                    margin-top: 40px;
+                                                    width: 100%;
+                                                    border-radius: 5px;
+                                                    padding: 10px;
+                                                    border: 2px solid#000;
+                                                    cursor: pointer;
+                                                    transition: .5s;
+                                                    font-size: 1.2em;
+                                                    outline: none;
+                                                }
+                                                
+                                                #generate-btn:hover {
+                                                    background: #713296;
+                                                    color: #fff;
+                                                }
